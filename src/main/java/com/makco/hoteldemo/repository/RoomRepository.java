@@ -1,10 +1,14 @@
 package com.makco.hoteldemo.repository;
 
 import java.util.List;
+import java.util.Optional;
+
+import org.springframework.data.repository.CrudRepository;
+
 import com.makco.hoteldemo.entity.RoomEntity;
 
-public interface RoomRepository extend CrudRepository<RoomEntity, Long>{
+public interface RoomRepository extends CrudRepository<RoomEntity, Long>{
 	
-	List<RoomEntity> findById(Long id); 
+	Optional<RoomEntity> findById(Long id); 
 
-}
+} 

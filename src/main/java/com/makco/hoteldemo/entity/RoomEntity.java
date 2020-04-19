@@ -20,6 +20,10 @@ public class RoomEntity {
 	@NotNull
 	private String price;
 
+	public RoomEntity() {
+		super();
+	}
+
 	public RoomEntity(@NotNull Integer roomNumber, @NotNull String price) {
 		super();
 		this.roomNumber = roomNumber;
