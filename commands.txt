@@ -1,0 +1,12 @@
+./gradlew bootRun
+npm install -g @angular/cli
+ng new angular2 --skip-git
+--cd to angular2 folder
+npm install bootstrap@3
+npm install fuelux
+ng serve
+
+ng build
+
+--in browser
+localhost:4200
